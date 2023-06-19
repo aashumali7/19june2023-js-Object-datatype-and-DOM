@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            
+            /// lets create a JS object
+            var student1 = {
+                //1. property:value
+                fname:"aashish",
+                lname:"MALI",
+                age:19,
+                salary:25000,
+                address: "girdoda",
+                // 1. fuction defination
+                getMyFullAddress(){
+                    console.log("hii"+' '+this.fname+" "+this.lname+' '+this.age+` `+this.salary);
+                
+            }
+
+                 
+            }; // student1 is a type of JS object
+            let student2 = 'aashu mali';  // student2 is a type of string 
+            const student3 = 40; // student3 is a type of number 
+            let student4={
+                fname:"aashu",
+                surname:"mali",
+                age:19,
+                address:"girdoda",
+                getAddress(){
+
+                    // every function return something 
+                    return this.address;
+
+                }
+            }
+            //how to access these information
+            console.log(student1. fname);  //. is a membeer selection operator
+            console.log(student1.getMyFullAddress()); 
+            console.log(student4. fname);
+            console.log(student4.getAddress());           
+
+        </script>
+    </body>
+</html>
